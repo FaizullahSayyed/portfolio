@@ -1,10 +1,10 @@
 import type React from 'react';
+import Navbar from '../../components/Navbar';
 
 const Homepage = (): React.JSX.Element => {
   return (
     <div className="homepage">
-        <h1>Faizulla Syed</h1>
-            <h2>Welcome to My Portfolio</h2>
+        <Navbar />
     </div>
   )
 }
