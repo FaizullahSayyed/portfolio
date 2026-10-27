@@ -1,5 +1,5 @@
 import { FiArrowDown, FiArrowUpRight } from 'react-icons/fi';
-import heroArt from '../../assets/hero.png';
+import heroPortrait from '../../assets/hero-cloudinary.png';
 
 export default function Hero() {
   return (
@@ -44,9 +44,8 @@ export default function Hero() {
           />
           <img
             className="relative h-auto w-full max-w-[300px]"
-            src={heroArt}
-            alt=""
-            aria-hidden="true"
+            src={heroPortrait}
+            alt="Portrait of Faizulla Syed"
           />
           <div className="absolute right-4 bottom-5 rounded-2xl border border-[#eeedf5] bg-white px-4 py-3 shadow-[0_12px_40px_rgba(24,24,36,0.07)] sm:right-6 sm:bottom-7">
             <p className="text-xs font-medium tracking-wide text-[#666675]">DESIGN · BUILD · REFINE</p>
